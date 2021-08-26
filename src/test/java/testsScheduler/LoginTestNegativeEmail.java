@@ -19,9 +19,22 @@ public class LoginTestNegativeEmail extends ConfigScheduler {
 
         Assert.assertTrue(isLoginButtonPresent);
 
+    }
+
+    @Test
+    public void loginTestNegativePassword(){
+
+
 
 
     }
+
+
+
+
+
+
+
 
 }
 

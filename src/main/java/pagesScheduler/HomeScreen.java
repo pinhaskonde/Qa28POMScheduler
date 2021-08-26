@@ -16,6 +16,12 @@ public class HomeScreen extends BaseScreen {
     @AndroidFindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/login_btn'")
     MobileElement loginButton;
 
+    @AndroidFindBy(xpath = "//*[@content-desc='Open'")
+    MobileElement burgerMenu;
+
+    @AndroidFindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']")
+    MobileElement logoutButton;
+
     public boolean isFabAddPresent() {
         should(fabAdd, 15);
         return true;
@@ -24,6 +30,16 @@ public class HomeScreen extends BaseScreen {
     public boolean isLoginButtonPresent() {
         should(loginButton, 15);
         return true;
+    }
+
+    public HomeScreen openMenu() {
+        burgerMenu.click();
+        return this;
+    }
+
+    public LoginScreen logout(){
+        logoutButton.click();
+        return new LoginScreen(driver);
     }
 
 }
