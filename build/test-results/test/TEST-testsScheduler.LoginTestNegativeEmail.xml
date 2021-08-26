@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testsScheduler.LoginTestNegativeEmail" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-24T16:43:52" hostname="MacBook-Pro-pinhas.local" time="14.936">
-  <properties/>
-  <testcase name="loginTestNegativeEmail" classname="testsScheduler.LoginTestNegativeEmail" time="14.936"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Aug 24, 2021 7:43:52 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
-INFO: Detected dialect: W3C
-]]></system-err>
-</testsuite>
