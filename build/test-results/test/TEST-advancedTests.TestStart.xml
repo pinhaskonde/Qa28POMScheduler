@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="advancedTests.TestStart" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-02T10:52:45" hostname="MacBook-Pro-pinhas.local" time="4.237">
+  <properties/>
+  <testcase name="swipeTest" classname="advancedTests.TestStart" time="4.237"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
