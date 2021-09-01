@@ -9,20 +9,26 @@ import pagesScheduler.SplashScreen;
 
 public class LaunchAppTest extends ConfigScheduler {
 
+//    @Test
+//    public void loginWithDto() {
+//        AuthTest testA = new AuthTest().withEmail("").withPassword("");
+//        AuthTest testB = new AuthTest().withEmail("dfdfd");
+//
+//        Authdto dto = Authdto.builder().email("john@gmail.com").password("Jj123456$").build();
+//
+//        boolean isFabPresent = new SplashScreen(driver)
+//                .checkVersion("0.0.3")
+//                .loginWithDto(dto)
+//                .skippWizard()
+//                .isFabAddPresent();
+//
+//        Assert.assertTrue(isFabPresent);
+//    }
+
     @Test
-    public void loginWithDto() {
-        AuthTest testA = new AuthTest().withEmail("").withPassword("");
-        AuthTest testB = new AuthTest().withEmail("dfdfd");
-
-        Authdto dto = Authdto.builder().email("john@gmail.com").password("Jj123456$").build();
-
-        boolean isFabPresent = new SplashScreen(driver)
-                .checkVersion("0.0.3")
-                .loginWithDto(dto)
-                .skippWizard()
-                .isFabAddPresent();
-
-        Assert.assertTrue(isFabPresent);
+    public void launchTest() {
+        String version = new SplashScreen(driver).getCurrentVersion();
+        Assert.assertEquals(version,"0.0.3");
     }
 }
 

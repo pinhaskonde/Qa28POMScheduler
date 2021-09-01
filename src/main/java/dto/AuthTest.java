@@ -15,12 +15,6 @@ public class AuthTest {
     }
 
 
-
-
-
-
-
-
     public String getEmail() {
         return email;
     }

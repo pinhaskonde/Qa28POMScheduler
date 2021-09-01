@@ -13,14 +13,17 @@ public class HomeScreen extends BaseScreen {
     @AndroidFindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/fab_main']")
     MobileElement fabAdd;
 
-    @AndroidFindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/login_btn'")
+    @AndroidFindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/login_btn']")
     MobileElement loginButton;
 
-    @AndroidFindBy(xpath = "//*[@content-desc='Open'")
+    @AndroidFindBy(xpath = "//*[@content-desc='Open']")
     MobileElement burgerMenu;
 
     @AndroidFindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']")
     MobileElement logoutButton;
+
+    @AndroidFindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/nav_list_fr_add_label']")
+    MobileElement fabAddEvent;
 
     public boolean isFabAddPresent() {
         should(fabAdd, 15);
@@ -41,5 +44,12 @@ public class HomeScreen extends BaseScreen {
         logoutButton.click();
         return new LoginScreen(driver);
     }
+
+    public EditCreationEventScreen initCreationEven(){
+        fabAdd.click();
+        fabAddEvent.click();
+        return new EditCreationEventScreen(driver);
+    }
+
 
 }

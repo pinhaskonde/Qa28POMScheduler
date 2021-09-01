@@ -25,17 +25,6 @@ public class LoginTestNegativeEmail extends ConfigScheduler {
     public void loginTestNegativePassword(){
 
 
-
-
     }
 
-
-
-
-
-
-
-
 }
-
-

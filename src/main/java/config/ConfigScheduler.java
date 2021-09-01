@@ -29,7 +29,7 @@ public class ConfigScheduler {
         capabilities.setCapability("appActivity",".presentation.splashScreen.SplashScreenActivity");
 
         capabilities.setCapability("automationName","Appium");
-        capabilities.setCapability("app","/Users/workspace/Tools/v.0.0.1.apk");
+        capabilities.setCapability("app","/Users/workspace/Tools/v.0.0.3.apk");
 
         driver = new AppiumDriver<>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
