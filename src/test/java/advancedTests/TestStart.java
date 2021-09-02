@@ -3,6 +3,7 @@ package advancedTests;
 import config.AdvancedConfig;
 import org.testng.annotations.Test;
 import pagesAdvanced.DragScreen;
+import pagesAdvanced.SwipeFirstScreen;
 import pagesAdvanced.SwipeableSecBasicScreen;
 
 public class TestStart extends AdvancedConfig {

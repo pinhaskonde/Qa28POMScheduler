@@ -25,7 +25,7 @@ public class SwipeableThirdBasicScreen extends BaseScreenAdvanced{
         int xFrom = rect.getX()+1;
         int yFrom = rect.getY() + rect.getHeight()/2;
 
-        int xTo = xFrom + rect.getWidth()-1;
+        int xTo = xFrom + rect.getWidth();
         int yTo = yFrom;
 
         TouchAction<?> touchAction = new TouchAction<>(driver);
