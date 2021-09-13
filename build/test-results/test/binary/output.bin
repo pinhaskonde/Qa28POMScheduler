@@ -1,0 +1,6 @@
+E19:46:33 INFO  - Start find --> By.xpath: //*[@content-desc='Swipe']
+?19:46:33 INFO  - By.xpath: //*[@content-desc='Swipe']--> Found
+s19:46:33 INFO  - Start find --> By.xpath: //*[@resource-id='com.h6ah4i.android.example.advrecyclerview:id/button']
+m19:46:34 INFO  - By.xpath: //*[@resource-id='com.h6ah4i.android.example.advrecyclerview:id/button']--> Found
+O19:46:35 INFO  - Start find --> By.xpath: //*[@resource-id='android:id/text1']
+I19:46:45 INFO  - By.xpath: //*[@resource-id='android:id/text1']--> Found

@@ -13,18 +13,18 @@ public class DragScreen extends BaseScreenAdvanced{
     @AndroidFindBy(xpath = "//*[@resource-id ='com.h6ah4i.android.example.advrecyclerview:id/button'][2]")
     MobileElement selectDraggableBasic;
 
-//    @AndroidFindBy (xpath = "//*[@content-desc ='Swipe']")
-//    MobileElement swipe;
+    @AndroidFindBy (xpath = "//*[@content-desc ='Swipe']")
+    MobileElement swipe;
 
     public DraggableBasicScreen selectDraggableBasic(){
         selectDraggableBasic.click();
         return new DraggableBasicScreen(driver);
     }
 
-//    public SwipeableSecBasicScreen selectSwipe(){
-//        swipe.click();
-//        return new SwipeableSecBasicScreen(driver);
-//    }
+    public SwipeableSecBasicScreen selectSwipe(){
+        swipe.click();
+        return new SwipeableSecBasicScreen(driver);
+    }
 
 }
 

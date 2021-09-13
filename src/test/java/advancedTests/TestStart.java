@@ -35,6 +35,15 @@ public class TestStart extends AdvancedConfig {
                 .selectSwipeBasicSecPage()
                 .selectSwipeableThirdScreen()
                 .swipeElement();
+    logger.info("swipeTest");
     }
+
+//    @Test
+//    public void swipeRightToLeftTest() {
+//        new DragScreen(driver)
+//                .selectSwipe()
+//                .selectSwipeableThirdScreen()
+//                .swipeRightToLeft();
+//    }
 
 }
